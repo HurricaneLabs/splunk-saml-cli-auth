@@ -78,5 +78,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-.. |Build Status| image:: https://travis-ci.org/HurricaneLabs/splunk_saml_cli_auth.svg?branch=master
-    :target: https://travis-ci.org/HurricaneLabs/splunk_saml_cli_auth
+.. |Build Status| image:: https://travis-ci.org/HurricaneLabs/splunk-saml-cli-auth.svg?branch=master
+    :target: https://travis-ci.org/HurricaneLabs/splunk-saml-cli-auth
