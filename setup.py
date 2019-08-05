@@ -1,18 +1,21 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
-VERSION = "1.0.0"
+VERSION = "0.1.1"
+
+
+with open("README.rst", "r") as f:
+    long_description = f.read()
+
 
 setup(
     name="splunk-saml-cli-auth",
     version=VERSION,
     author="Steve McMaster",
     author_email="mcmaster@hurricanelabs.com",
-    packages=find_packages(),
-    include_package_data=True,
-    zip_safe=False,
+    py_modules=["splunksecrets"],
     description="Helper for authenticating to Splunk on CLI when using SAML auth",
-    long_description_content_type="text/markdown",
+    long_description=long_description,
     install_requires=[
         "pycookiecheat",
         "requests"
@@ -26,5 +29,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3 :: Only",
         "Development Status :: 5 - Production/Stable",
-    ]
+    ],
+    bugtrack_url="https://github.com/HurricaneLabs/splunk-saml-cli-auth/issues",
 )
