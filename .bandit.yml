@@ -1,0 +1,4 @@
+---
+tests:
+skips:
+    - 'B501'  # Disabled by default because Splunk API ports generally don't have verifable certs.
